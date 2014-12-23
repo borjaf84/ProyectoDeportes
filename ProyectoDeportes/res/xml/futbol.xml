@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<futbol>
+    <equipo division="primera">
+        <denominacion>Unión Deportiva Almería</denominacion>
+        <estadio>Los Juegos Mediterráneos</estadio>
+        <anio>1889</anio>
+        <presidente>D. Alfonso García Gabarrón</presidente>
+        <escudo>drawable/almeria</escudo>
+    </equipo>        
+    <equipo division="primera">
+        <denominacion>Athletic Club de Futbol</denominacion>
+        <estadio>San Mames</estadio>
+        <anio>1898</anio>
+        <presidente>D. Josu Urrutia Tellería</presidente>
+        <escudo>drawable/atheltic</escudo>
+    </equipo>
+    <equipo division="primera">
+        <denominacion>Club Atlético de Madrid</denominacion>
+        <estadio>Vicente Calderón</estadio>
+        <anio>1903</anio>
+        <presidente>D. Enrique Cerezo Torres</presidente>
+        <escudo>drawable/atletico</escudo>
+    </equipo>     
+    <equipo division="primera">
+        <denominacion>Fútbol Club Barcelona</denominacion>
+        <estadio>Camp Nou</estadio>
+        <anio>1899</anio>
+        <presidente>D. Josep Maria Bartomeu i Floreta</presidente>
+        <escudo>drawable/barcelona</escudo>
+    </equipo>
+    <equipo division="primera">
+        <denominacion>Real Club Celta de Vigo</denominacion>
+        <estadio>Municipal de Balaídos</estadio>
+        <anio>1923</anio>
+        <presidente>D. Carlos Mouriño Atanes</presidente>
+        <escudo>drawable/celta</escudo>
+    </equipo>
+    <equipo division="primera">
+        <denominacion>Córdoba Club de Fútbol</denominacion>
+        <estadio>Nuevo Municipal El Arcángel</estadio>
+        <anio>1951</anio>
+        <presidente>Carlos González</presidente>
+        <escudo>drawable/cordoba</escudo>
+    </equipo>                     
+</futbol>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFBBBBBB" >
+    <ImageView
+        android:id="@+id/img_frg_escudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        />
+
+        <TextView
+        android:id="@+id/text_frg_equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="Equipo:"/>
+    
+    <TextView
+        android:id="@+id/text_frg_estadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Estadio:"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+    
+        <TextView
+        android:id="@+id/text_frg_anio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" 
+        android:textStyle="bold"
+        android:text="Año de Fundación:"/>
+
+        <TextView
+            android:id="@+id/text_frg_presidente"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@android:color/black"
+	        android:textSize="15sp" 
+	        android:textStyle="bold"
+	        android:text="Presidente" />
+</LinearLayout>

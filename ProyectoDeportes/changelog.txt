@@ -1,0 +1,8 @@
+1.0 -> Inicio.
+1.1 -> Se crean todas las opciones bien.
+1.2 -> Se añade lo de Fragments.
+1.2.1 -> Cambio que lea las imagenes de un String.
+1.2.2 -> Se crea el xml con los datos
+1.2.3 ->
+1.2.4 ->
+1.2.5 - > Se añade lo de leer un xml

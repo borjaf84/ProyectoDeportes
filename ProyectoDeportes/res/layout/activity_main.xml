@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent">
+	<TabHost android:id="@android:id/tabhost" android:layout_width="match_parent" android:layout_height="match_parent">
+		 <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" > 
+		     <TabWidget android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@android:id/tabs" />		
+		     <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@android:id/tabcontent" >		         			  
+		     	<LinearLayout android:id="@+id/tabFutbol" android:orientation="vertical"
+							  android:layout_width="match_parent" android:layout_height="match_parent" >
+					<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+					          android:layout_height="wrap_content" android:text="@string/titulo1" />
+					<Spinner  android:id="@+id/lista1" android:layout_width="fill_parent"
+						      android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+							  android:layout_below="@+id/textView1" />    
+				</LinearLayout>			
+		     	<LinearLayout android:id="@+id/tabTenis" android:orientation="vertical" android:layout_width="match_parent"
+							  android:layout_height="match_parent" >
+		    		<TextView android:id="@+id/textView2" android:text="En Desarrollo..." android:layout_width="wrap_content" 
+		    				  android:layout_height="wrap_content" />
+				</LinearLayout>	
+		     	<LinearLayout android:id="@+id/tabBaloncesto" android:orientation="vertical" android:layout_width="match_parent"
+							  android:layout_height="match_parent" >
+		    		<TextView android:id="@+id/textView3" android:text="En Desarrollo..." android:layout_width="wrap_content" 
+		    				  android:layout_height="wrap_content" />
+				</LinearLayout>	    			  
+		     </FrameLayout>	     
+		</LinearLayout>   
+	</TabHost>
+</LinearLayout>
+
+
+
+
+
+
+

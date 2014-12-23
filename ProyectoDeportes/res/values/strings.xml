@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista Equipos</string>
+    <string name="equipos">Equipos de Futbol</string>
+    <string name="AnioFundacion">Año Fundación:</string>
+    <string name="estadio">Estadio:</string>
+    <string name="titulo1">Seleccione una División</string>
+
+    <string-array name="menu">
+        <item>Ver más info.</item>
+    </string-array>
+
+    <string name="title_activity_fragments">FragmentsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fragments_detalle">FragmentsDetalleActivity</string>
+    <string name="menu_settings">Ajustes</string>
+</resources>
